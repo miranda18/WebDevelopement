@@ -1,0 +1,41 @@
+#showResults{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;  
+    margin-bottom: 5%;
+}
+
+.summary{
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.show{
+    border: 1px solid rgb(204, 186, 236); 
+    border-radius: 16px;
+    margin: 3%;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0.25rem;
+    font-weight: 600;
+}
+
+.c-img-top {
+    width: 100%;
+   border-radius: 3%;
+}
+
+div.show > p {
+    margin-left: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+    #showResults{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+  
